@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="summary-component">
+      <div class="result">
+        <div class="result--title">Your Result</div>
+        <div class="circle">
+          <div class="circle--score"></div>
+          <div class="circle--numberOf">of 100</div>
+        </div>
+        <div>
+          <h2 class="great">Great</h2>
+          <p class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="summary">
+        <div class="summary--title">Summary</div>
+        <div class="items">
+          <div class="item" id="Reaction">
+            <div class="item--left">
+              <img src="" />
+              <p></p>
+            </div>
+            <div class="item--right">
+              <div class="item--score"></div>
+              &nbsp
+              <div class="item--scorefull">/ 100</div>
+            </div>
+          </div>
+          <div class="item" id="Memory">
+            <div class="item--left">
+              <img src="" />
+              <p></p>
+            </div>
+            <div class="item--right">
+              <div class="item--score"></div>
+              &nbsp
+              <div class="item--scorefull">/ 100</div>
+            </div>
+          </div>
+          <div class="item" id="Verbal">
+            <div class="item--left">
+              <img src="" />
+              <p></p>
+            </div>
+            <div class="item--right">
+              <div class="item--score"></div>
+              &nbsp
+              <div class="item--scorefull">/ 100</div>
+            </div>
+          </div>
+          <div class="item" id="Visual">
+            <div class="item--left">
+              <img src="" />
+              <p></p>
+            </div>
+            <div class="item--right">
+              <div class="item--score"></div>
+              &nbsp
+              <div class="item--scorefull">/ 100</div>
+            </div>
+          </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.kamilbieniek.pl/">Kamil Bieniek</a>.
+    </div>
+    <script src="./assets/fetch.js"></script>
+  </body>
+</html>
